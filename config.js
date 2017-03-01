@@ -14,7 +14,7 @@ module.exports = {
         img: 'img'
     },
     metadata: {
-        title: 'jQuery Cheat Sheet',
+        title: 'jQuery API速查文档 | wilon.github.io',
         description: 'jQuery cheat sheet in HTML with links to the original API documentation. Created by Oscar Otero',
         author: 'Oscar Otero - https://oscarotero.com',
         keywords: 'jQuery, javascript, cheatsheet, api, resource, web developer',
