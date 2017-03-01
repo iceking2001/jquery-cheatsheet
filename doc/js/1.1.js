@@ -14235,7 +14235,7 @@ webpackJsonp([1],[
 	    __webpack_require__(13),
 	], __WEBPACK_AMD_DEFINE_RESULT__ = function ($) {
 	    var settings = {
-	        open_links: 'modal-window',
+	        open_links: 'new-window',
 	        layout: 'vertical'
 	    };
 

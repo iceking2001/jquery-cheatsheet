@@ -3,7 +3,7 @@ define([
     'magnific-popup',
 ], function ($) {
     var settings = {
-        open_links: 'modal-window',
+        open_links: 'new-window',
         layout: 'vertical'
     };
 
