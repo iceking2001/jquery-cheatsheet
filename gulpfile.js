@@ -13,7 +13,7 @@ const gulp    = require('gulp'),
 
 gulp.task('dev', function (done) {
       config.dev = true;
-      config.url = 'http://localhost:3000';
+      config.url = 'http://wilon.github.io/jquery-cheatsheet/doc';
       done();
 });
 

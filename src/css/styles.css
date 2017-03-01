@@ -24,7 +24,7 @@
 @custom-media --tall (min-height: 800px);
 
 body {
-    background: var(--black);
+    background: #E8E8E8;
     font-family: 'Droid Sans', Helvetica, sans-serif;
 }
 fieldset, iframe {
@@ -37,8 +37,6 @@ fieldset, iframe {
 .main-header {
     padding: .8rem 1rem;
     box-sizing: border-box;
-    color: var(--gray);
-    background: var(--black);
     top: 0;
     left: 0;
     right: 0;
@@ -47,7 +45,16 @@ fieldset, iframe {
     top: 0;
     left: 0;
     width: 100%;
-
+    border-bottom: 1px solid #E0DEDE;
+    background-color: #E8E8E8;
+    background: url(header_bg.png) 0 0 repeat-x;
+    background: linear-gradient(white, #E8E8E8);
+    background: -moz-linear-gradient(white, #E8E8E8);
+    background: -o-linear-gradient(white, #E8E8E8);
+    background: -webkit-linear-gradient(white, #E8E8E8);
+    /* box-shadow: 0 -1px 0 #FEFCFC inset, 0 0 4px rgba(0, 0, 0, .15); */
+    -moz-shadow: 0 -1px 0 #fefcfc inset, 0 0 4px rgba(0,0,0,.15);
+    -webkit-shadow: 0 -1px 0 #fefcfc inset, 0 0 4px rgba(0,0,0,.15);
     a {
         color: inherit;
         text-decoration: none;
@@ -64,10 +71,7 @@ fieldset, iframe {
         margin: 0;
         white-space: nowrap;
 
-        strong {
-            color: white;
-        }
-        
+
     }
 
     .filter-group {
@@ -195,8 +199,8 @@ fieldset, iframe {
         flex-shrink: 0;
         flex-grow: 1;
         background: white;
-        margin-right: 1px;
-        margin-bottom: 1px;
+        margin-right: 6px;
+        margin-bottom: 6px;
 
         h1 {
             font-size: .9em;
@@ -213,7 +217,7 @@ fieldset, iframe {
         a {
             color: inherit;
         }
-        
+
         > div {
             padding: 1rem;
 
@@ -493,7 +497,7 @@ fieldset, iframe {
             margin-right: .3em;
         }
     }
-    
+
     p {
         padding: 1rem;
         font-size: 0.8rem;

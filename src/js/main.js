@@ -6,7 +6,7 @@ require([
     './settings'
 ], function ($, versions, search, modal, settings) {
     window.jQuery = $;
-    
+
     $(function () {
         var $links = $('.main-content a');
 

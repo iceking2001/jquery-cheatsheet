@@ -91,11 +91,11 @@ versions:
     source: "git"
 
 selectors:
-  title: Selectors
+  title: 选择器
   slug: selectors
   sections:
 
-    - title: Basics
+    - title: 基本
       items:
 
         - text: "*"
@@ -123,7 +123,7 @@ selectors:
           doc: multiple-selector
           from: "1.0"
 
-    - title: Hierarchy
+    - title: 层级
       items:
 
         - text: "parent &gt; child"
@@ -146,7 +146,7 @@ selectors:
           doc: next-siblings-selector
           from: "1.0"
 
-    - title: Basic Filters
+    - title: 基本筛选
       autosort: true
       items:
 
@@ -215,7 +215,7 @@ selectors:
           doc: target-selector
           from: "1.9"
 
-    - title: Content Filters
+    - title: 内容筛选
       autosort: true
       items:
 
@@ -240,7 +240,7 @@ selectors:
           from: "1.0"
 
 
-    - title: Visibility Filters
+    - title: 可见性筛选
       break: true
       autosort: true
       items:
@@ -255,7 +255,7 @@ selectors:
           doc: visible-selector
           from: "1.0"
 
-    - title: Attribute
+    - title: 属性
       items:
 
         - text: '[name|="value"]'
@@ -303,7 +303,7 @@ selectors:
           doc: multiple-attribute-selector
           from: "1.0"
 
-    - title: Child Filters
+    - title: 子元素筛选
       autosort: true
       items:
 
@@ -357,7 +357,7 @@ selectors:
           doc: only-of-type-selector
           from: "1.9"
 
-    - title: Forms
+    - title: 表单
       break: true
       autosort: true
       items:
@@ -438,11 +438,11 @@ selectors:
           from: "1.0"
 
 attributes:
-  title: Attributes / CSS
+  title: 属性 / CSS
   slug: attributes
   sections:
 
-    - title: Attributes
+    - title: 属性
       autosort: true
       items:
 
@@ -528,7 +528,7 @@ attributes:
           src: jQuery.fn.toggleClass
           from: "1.0"
 
-    - title: Dimensions
+    - title: 尺寸
       break: true
       autosort: true
       items:
@@ -569,7 +569,7 @@ attributes:
           src: jQuery.fn.width
           from: "1.0"
 
-    - title: Offset
+    - title: 位置
       autosort: true
       items:
 
@@ -603,7 +603,7 @@ attributes:
           src: jQuery.fn.scrollTop
           from: "1.2.6"
 
-    - title: Data
+    - title: 数据
       autosort: true
       items:
 
@@ -639,11 +639,11 @@ attributes:
 
 
 manipulation:
-  title: Manipulation
+  title: 操作
   slug: manipulation
   sections:
 
-    - title: Copying
+    - title: 拷贝
       autosort: true
       items:
 
@@ -653,7 +653,7 @@ manipulation:
           src: jQuery.fn.clone
           from: "1.0"
 
-    - title: "DOM Insertion, Around"
+    - title: DOM 插入, 包裹
       autosort: true
       items:
 
@@ -675,7 +675,7 @@ manipulation:
           src: jQuery.fn.wrapInner
           from: "1.2"
 
-    - title: "DOM Insertion, Inside"
+    - title: DOM 插入, 内部插入
       autosort: true
       items:
 
@@ -715,7 +715,7 @@ manipulation:
           src: jQuery.fn.text
           from: "1.0"
 
-    - title: "DOM Insertion, Outside"
+    - title: DOM 插入, 外部插入
       autosort: true
       items:
 
@@ -743,7 +743,7 @@ manipulation:
           src: jQuery.fn.insertBefore
           from: "1.0"
 
-    - title: DOM Removal
+    - title: DOM 移除
       autosort: true
       items:
 
@@ -771,7 +771,7 @@ manipulation:
           src: jQuery.fn.unwrap
           from: "1.4"
 
-    - title: DOM Replacement
+    - title: DOM 替换
       autosort: true
       items:
 
@@ -789,11 +789,11 @@ manipulation:
 
 
 traversing:
-  title: Traversing
+  title: 遍历
   slug: traversing
   sections:
 
-    - title: Filtering
+    - title: 筛选
       autosort: true
       items:
 
@@ -851,7 +851,7 @@ traversing:
           src: jQuery.fn.slice
           from: "1.1.4"
 
-    - title: Miscellaneous Traversing
+    - title: 多种遍历
       autosort: true
       items:
 
@@ -892,7 +892,7 @@ traversing:
           src: jQuery.fn.end
           from: "1.0"
 
-    - title: Tree Traversal
+    - title: 树遍历
       autosort: true
       items:
 
@@ -976,11 +976,11 @@ traversing:
 
 
 events:
-  title: Events
+  title: 事件
   slug: events
   sections:
 
-    - title: Browser Events
+    - title: 浏览器事件
       autosort: true
       items:
 
@@ -1004,7 +1004,7 @@ events:
           src: jQuery.fn.scroll
           from: "1.0"
 
-    - title: Document Loading
+    - title: 文档加载
       autosort: true
       items:
 
@@ -1030,7 +1030,7 @@ events:
           deprecated: "1.8"
           removed: "3.0"
 
-    - title: Event Handler Attachment
+    - title: 事件绑定
       autosort: true
       items:
 
@@ -1104,7 +1104,7 @@ events:
           src: jQuery.fn.undelegate
           from: "1.4.2"
 
-    - title: Form Events
+    - title: 表单事件
       autosort: true
       items:
 
@@ -1150,7 +1150,7 @@ events:
           src: jQuery.fn.submit
           from: "1.0"
 
-    - title: Keyboard Events
+    - title: 键盘事件
       autosort: true
       items:
 
@@ -1172,7 +1172,7 @@ events:
           src: jQuery.fn.keyup
           from: "1.0"
 
-    - title: Mouse Events
+    - title: 鼠标事件
       break: true
       autosort: true
       items:
@@ -1251,7 +1251,7 @@ events:
           deprecated: "1.8"
           removed: "1.9"
 
-    - title: Event Object
+    - title: 事件对象
       autosort: true
       items:
 
@@ -1351,11 +1351,11 @@ events:
           from: "1.1.3"
 
 effects:
-  title: Effects
+  title: 效果
   slug: effects
   sections:
 
-    - title: Basics
+    - title: 基础
       autosort: true
       items:
 
@@ -1377,7 +1377,7 @@ effects:
           src: jQuery.fn.toggle
           from: "1.0"
 
-    - title: Custom
+    - title: 自定义
       autosort: true
       items:
 
@@ -1453,7 +1453,7 @@ effects:
           src: jQuery.fn.stop
           from: "1.2"
 
-    - title: Fading
+    - title: 渐变
       autosort: true
       items:
 
@@ -1481,7 +1481,7 @@ effects:
           src: jQuery.fn.fadeToggle
           from: "1.4.4"
 
-    - title: Sliding
+    - title: 滑动
       autosort: true
       items:
 
@@ -1509,7 +1509,7 @@ ajax:
   slug: ajax
   sections:
 
-    - title: Global Ajax Event Handlers
+    - title: 全局Ajax事件处理程序s
       autosort: true
       items:
 
@@ -1549,7 +1549,7 @@ ajax:
           src: jQuery.fn.ajaxSuccess
           from: "1.0"
 
-    - title: Helper Functions
+    - title: 辅助函数
       autosort: true
       items:
 
@@ -1571,7 +1571,7 @@ ajax:
           src: jQuery.fn.serializeArray
           from: "1.2"
 
-    - title: Low-Level Interface
+    - title: 底层接口
       autosort: true
       items:
 
@@ -1599,7 +1599,7 @@ ajax:
           src: jQuery.ajaxTransport
           from: "1.5"
 
-    - title: Shorthand Methods
+    - title: 快捷方法
       autosort: true
       items:
 
@@ -1634,11 +1634,11 @@ ajax:
           from: "1.0"
 
 core:
-  title: Core
+  title: 核心
   slug: core
   sections:
 
-    - title: jQuery Object
+    - title: jQuery 对象
       autosort: true
       items:
 
@@ -1674,7 +1674,7 @@ core:
           src: jQuery.when
           from: "1.5"
 
-    - title: Deferred Object
+    - title: 实用工具
       autosort: true
       items:
 
@@ -1773,7 +1773,7 @@ core:
           doc: promise
           from: "1.6"
 
-    - title: Utilities
+    - title: DOM 元素方法
       break: true
       autosort: true
       items:
@@ -1885,7 +1885,7 @@ core:
           from: "1.0"
 
         - text: jQuery.merge()
-          title: Merge the contents of two arrays together into the first array. 
+          title: Merge the contents of two arrays together into the first array.
           doc: jQuery.merge
           src: jQuery.merge
           from: "1.0"
@@ -1959,7 +1959,7 @@ core:
           src: jQuery.uniqueSort
           from: "3.0"
 
-    - title: DOM Element Methods
+    - title: 内部构件
       break: true
       autosort: true
       items:
@@ -1989,7 +1989,7 @@ core:
           src: jQuery.fn.toArray
           from: "1.4"
 
-    - title: Internals
+    - title: 延迟对象
       autosort: true
       items:
 
@@ -2033,7 +2033,7 @@ core:
           deprecated: "1.7"
           removed: "3.0"
 
-    - title: Callbacks Object
+    - title: 回调对象
       autosort: true
       items:
 

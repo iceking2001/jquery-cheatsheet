@@ -4,7 +4,7 @@ module.exports = {
     paths: {
         root: __dirname,
         src: 'src',
-        build: 'build',
+        build: 'doc',
         tmp: 'tmp',
         data: 'data',
         layouts: 'layouts',

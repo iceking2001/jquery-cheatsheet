@@ -4,7 +4,7 @@ define([
 ], function ($) {
     var settings = {
         open_links: 'modal-window',
-        layout: 'horizontal'
+        layout: 'vertical'
     };
 
     return {
