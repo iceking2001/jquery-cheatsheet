@@ -1,10 +1,10 @@
 jquery-cheatsheet
 =================
 
-jQuery interactive cheatsheet
-http://oscarotero.com/jquery/
+jQuery interactive cheatsheet 中文版
+https://wilon.github.io/jquery-cheatsheet/doc/
 
-![Screenshot](https://github.com/oscarotero/jquery-cheatsheet/blob/master/screen-shot.png)
+![Screenshot](https://cloud.githubusercontent.com/assets/7512755/23454299/e0b60abc-fea6-11e6-9bc2-68e1b7ac852a.png)
 
 
 Installation:
@@ -13,7 +13,7 @@ Installation:
 Requires node >= 4
 
 ```
-$ git clone https://github.com/oscarotero/jquery-cheatsheet.git
+$ git clone https://github.com/wilon/jquery-cheatsheet.git
 $ cd jquery-cheatsheet
 $ npm install
 $ npm start
