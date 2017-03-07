@@ -46,7 +46,7 @@ module.exports = function (done) {
     });
 
     sync.init({
-        server: path.join(paths.root, paths.build),
+        server: paths.root,
         watchOptions: watchOptions,
         reloadOnRestart: true,
         open: false

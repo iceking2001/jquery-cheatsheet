@@ -1,10 +1,10 @@
 module.exports = {
-    url: 'http://oscarotero.com/jquery',
-    deploy: 'oscarotero.com:~/www/jquery',
+    url: 'https://wilon.github.io/jquery-cheatsheet/',
+    deploy: 'oscarotero.com:~/web/github/jquery-cheatsheet',
     paths: {
         root: __dirname,
         src: 'src',
-        build: 'doc',
+        build: 'static',
         tmp: 'tmp',
         data: 'data',
         layouts: 'layouts',

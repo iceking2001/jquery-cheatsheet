@@ -17,11 +17,11 @@ const metalsmith = require('metalsmith'),
  */
 module.exports = function (done, options) {
     options = options || {};
-    let publicPath = url.parse(config.url || '/').pathname;
+    let publicPath = path.join('./', paths.build);
 
     //Handlerbars helpers
     handlebars.registerHelper('itemOptionData', function (type) {
-      var data = { 
+      var data = {
         sort: this.text.replace(/[^\w]/, ''),
         from: this.from,
         type: type
@@ -65,7 +65,7 @@ module.exports = function (done, options) {
     metalsmith(paths.root)
         .metadata(config.metadata || {})
         .source(path.join(paths.src, paths.data))
-        .destination(paths.build)
+        .destination(paths.root)
         .clean(false)
         .use(changed({
             ctimes: path.join(paths.root, paths.tmp, 'metalsmith-changed-ctimes.json')
