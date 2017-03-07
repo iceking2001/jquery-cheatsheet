@@ -17,12 +17,6 @@ gulp.task('dev', function (done) {
       done();
 });
 
-gulp.task('ghpagesDev', function (done) {
-      config.dev = true;
-      config.url = 'https://github.com/wilon/jquery-cheatsheet/';
-      done();
-});
-
 gulp.task('clear', clear);
 gulp.task('copy', copy);
 gulp.task('css', css);
