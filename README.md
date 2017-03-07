@@ -2,9 +2,10 @@ jquery-cheatsheet
 =================
 
 jQuery interactive cheatsheet 中文版
-https://wilon.github.io/jquery-cheatsheet/doc/
 
-![Screenshot](https://cloud.githubusercontent.com/assets/7512755/23454299/e0b60abc-fea6-11e6-9bc2-68e1b7ac852a.png)
+https://wilon.github.io/jquery-cheatsheet/
+
+![Screenshot](https://raw.githubusercontent.com/wilon/jquery-cheatsheet/gh-pages/screen-shot.png)
 
 
 Installation:
@@ -20,3 +21,12 @@ $ npm start
 
 # Open http://localhost:3000 in your browser
 ```
+
+Your github page:
+-------------
+
+Fork me
+
+Settings -> Options -> GitHub Pages
+
+Open https://`{your github name}`.github.io/jquery-cheatsheet/
