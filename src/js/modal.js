@@ -4,7 +4,7 @@ define([
     './versions-selector',
     'magnific-popup'
 ], function ($, settings, versions) {
-    
+
     return {
         init: function ($modal, $links) {
             // Open links
@@ -16,40 +16,42 @@ define([
                     return;
                 }
 
-                switch (settings.getValue('open_links')) {
-                    case 'modal-window':
-                        e.preventDefault();
+                e.preventDefault();
+                window.open($this.attr('href'));
+                // switch (settings.getValue('open_links')) {
+                //     case 'modal-window':
+                //         e.preventDefault();
 
-                        $modal.find('.link-api a').attr('href', $this.attr('href')).click();
+                //         $modal.find('.link-api a').attr('href', $this.attr('href')).click();
 
-                        if ($this.data('src') && versions.getCurrentSource()) {
-                            $modal.find('.link-src a').show().attr('href', 'http://james.padolsey.com/jquery/' + versions.getCurrentSource() + '/' + $this.data('src'));
-                        } else {
-                            $modal.find('.link-src a').hide();
-                        }
+                //         if ($this.data('src') && versions.getCurrentSource()) {
+                //             $modal.find('.link-src a').show().attr('href', 'http://james.padolsey.com/jquery/' + versions.getCurrentSource() + '/' + $this.data('src'));
+                //         } else {
+                //             $modal.find('.link-src a').hide();
+                //         }
 
-                        $.magnificPopup.open({
-                            items: {
-                                src: $modal,
-                                type: 'inline'
-                            },
-                            mainClass: 'modal-doc',
-                            close: function () {
-                                $modal.find('iframe').attr('src', 'about:blank');
-                            }
-                        });
-                        return;
+                //         $.magnificPopup.open({
+                //             items: {
+                //                 src: $modal,
+                //                 type: 'inline'
+                //             },
+                //             mainClass: 'modal-doc',
+                //             close: function () {
+                //                 $modal.find('iframe').attr('src', 'about:blank');
+                //             }
+                //         });
+                //         return;
 
-                    case 'new-window':
-                        e.preventDefault();
+                //     case 'new-window':
+                //         e.preventDefault();
 
-                        window.open($this.attr('href'));
-                        return;
+                //         window.open($this.attr('href'));
+                //         return;
 
-                    case 'same-window':
-                        document.location.href = $this.attr('href');
-                        return;
-                }
+                //     case 'same-window':
+                //         document.location.href = $this.attr('href');
+                //         return;
+                // }
             });
 
             //Modal menu
