@@ -18,7 +18,7 @@ module.exports = function (done) {
     }
 
     config.webpack.context = path.join(paths.root, paths.src, paths.js);
-    config.webpack.output.publicPath = path.join(url.parse(config.url || '/').pathname, paths.js + '/');
+    config.webpack.output.publicPath = path.join(paths.build, paths.js + '/');
     config.webpack.output.path = path.join(paths.root, paths.build, paths.js);
 
     webpack(config.webpack, function (err) {
