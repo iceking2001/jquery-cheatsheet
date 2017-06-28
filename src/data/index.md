@@ -99,27 +99,27 @@ selectors:
       items:
 
         - text: "*"
-          title: Selects all elements.
+          title: 选择所有元素。
           doc: all-selector
           from: "1.0"
 
         - text: .class
-          title: Selects all elements with the given class.
+          title: 选择给定类的所有元素。
           doc: class-selector
           from: "1.0"
 
         - text: element
-          title: Selects all elements with the given tag name.
+          title: 选择具有给定标签名称的所有元素。
           doc: element-selector
           from: "1.0"
 
         - text: "#id"
-          title: Selects a single element with the given id attribute.
+          title: 选择具有给定id属性的单个元素。
           doc: id-selector
           from: "1.0"
 
         - text: "selector1, selectorN, ..."
-          title: Selects the combined results of all the specified selectors.
+          title: 选择所有指定选择器的组合结果。
           doc: multiple-selector
           from: "1.0"
 
@@ -127,22 +127,22 @@ selectors:
       items:
 
         - text: "parent &gt; child"
-          title: Selects all direct child elements specified by 'child' of elements specified by 'parent'.
+          title: 选择由'parent'指定的元素由'child'指定的所有直接子元素。
           doc: child-selector
           from: "1.0"
 
         - text: ancestor descendant
-          title: Selects all elements that are descendants of a given ancestor.
+          title: 选择作为给定祖先的后代的所有元素。
           doc: descendant-selector
           from: "1.0"
 
         - text: prev + next
-          title: Selects all next elements matching 'next' that are immediately preceded by a sibling 'prev'.
+          title: 选择所有匹配“next”的下一个元素，它们紧跟在同一个“prev”之前。
           doc: next-adjacent-Selector
           from: "1.0"
 
         - text: prev ~ siblings
-          title: "Selects all sibling elements that follow after the 'prev' element, have the same parent, and match the filtering 'siblings' selector."
+          title: “选择”prev“元素后面的所有同胞元素，具有相同的父项，并且匹配过滤”兄弟“选择符。
           doc: next-siblings-selector
           from: "1.0"
 
@@ -151,67 +151,67 @@ selectors:
       items:
 
         - text: :animated
-          title: Select all elements that are in the progress of an animation at the time the selector is run.
+          title: 选择运行时选择动画进度中的所有元素。
           doc: animated-selector
           from: "1.2"
 
         - text: :eq()
-          title: Select the element at index n within the matched set.
+          title: 选择匹配集中的索引n处的元素。
           doc: eq-selector
           from: "1.0"
 
         - text: :even
-          title: "Selects even elements, zero-indexed. See also odd."
+          title: “选择偶数元素，零索引，另见奇数”。
           doc: even-selector
           from: "1.0"
 
         - text: :first
-          title: Selects the first matched element.
+          title: 选择第一个匹配的元素。
           doc: first-selector
           from: "1.0"
 
         - text: :gt()
-          title: Select all elements at an index greater than index within the matched set.
+          title: 选择匹配集中大于索引的索引的所有元素。
           doc: gt-selector
           from: "1.0"
 
         - text: :header
-          title: "Selects all elements that are headers, like h1, h2, h3 and so on."
+          title: “选择标题的所有元素，如h1，h2，h3等。”
           doc: header-selector
           from: "1.2"
 
         - text: :lang()
-          title: Selects all elements of the specified language.
+          title: 选择指定语言的所有元素。
           doc: lang-selector
           from: "1.9"
 
         - text: :last
-          title: Selects the last matched element.
+          title: 选择最后匹配的元素。
           doc: last-selector
           from: "1.0"
 
         - text: :lt()
-          title: Select all elements at an index less than index within the matched set.
+          title: 选择匹配集中索引小于索引的所有元素。
           doc: lt-selector
           from: "1.0"
 
         - text: :not()
-          title: Selects all elements that do not match the given selector.
+          title: 选择与给定选择器不匹配的所有元素。
           doc: not-selector
           from: "1.0"
 
         - text: :odd
-          title: "Selects odd elements, zero-indexed. See also even."
+          title: “选择奇数元素，零索引，参见even”。
           doc: odd-selector
           from: "1.0"
 
         - text: :root
-          title: Selects the element that is the root of the document.
+          title: 选择作为文档根目录的元素。
           doc: root-selector
           from: "1.9"
 
         - text: :target
-          title: Selects the target element indicated by the fragment identifier of the document's URI.
+          title: 选择由文档URI的片段标识符指示的目标元素。
           doc: target-selector
           from: "1.9"
 
@@ -220,22 +220,22 @@ selectors:
       items:
 
         - text: :contains()
-          title: Select all elements that contain the specified text.
+          title: 选择包含指定文本的所有元素。
           doc: contains-selector
           from: "1.1.4"
 
         - text: :empty
-          title: Select all elements that have no children (including text nodes).
+          title: 选择所有没有子节点的元素（包括文本节点）。
           doc: empty-selector
           from: "1.0"
 
         - text: :has()
-          title: Selects elements which contain at least one element that matches the specified selector.
+          title: 选择至少包含一个与指定选择器匹配的元素的元素。
           doc: has-selector
           from: "1.1.4"
 
         - text: :parent
-          title: "Select all elements that are the parent of another element, including text nodes."
+          title: “选择所有作为另一个元素的父元素，包括文本节点”。
           doc: parent-selector
           from: "1.0"
 
@@ -246,12 +246,12 @@ selectors:
       items:
 
         - text: :hidden
-          title: Selects all elements that are hidden.
+          title: 选择所有隐藏的元素。
           doc: hidden-selector
           from: "1.0"
 
         - text: :visible
-          title: Selects all elements that are visible.
+          title: 选择所有可见的元素。
           doc: visible-selector
           from: "1.0"
 
@@ -259,47 +259,47 @@ selectors:
       items:
 
         - text: '[name|="value"]'
-          title: Selects elements that have the specified attribute with a value either equal to a given string or starting with that string followed by a hyphen (-).
+          title: 选择具有指定属性的元素，其值等于给定字符串，或者以该字符串开头，后跟连字符（ - ）。
           doc: attribute-contains-prefix-selector
           from: "1.0"
 
         - text: '[name*="value"]'
-          title: Selects elements that have the specified attribute with a value containing the a given substring.
+          title: 选择具有指定属性的元素，其值包含给定的子字符串。
           doc: attribute-contains-selector
           from: "1.0"
 
         - text: '[name~="value"]'
-          title: "Selects elements that have the specified attribute with a value containing a given word, delimited by spaces."
+          title: “选择具有指定属性的元素，其中包含给定单词的值，并以空格分隔。”
           doc: attribute-contains-word-selector
           from: "1.0"
 
         - text: '[name$="value"]'
-          title: Selects elements that have the specified attribute with a value ending exactly with a given string. The comparison is case sensitive.
+          title: 选择具有指定属性的元素，其值将与给定的字符串完全一致。比较区分大小写。
           doc: attribute-ends-with-selector
           from: "1.0"
 
         - text: '[name="value"]'
-          title: Selects elements that have the specified attribute with a value exactly equal to a certain value.
+          title: 选择具有与某个值完全相同的值的指定属性的元素。
           doc: attribute-equals-selector
           from: "1.0"
 
         - text: '[name!="value"]'
-          title: "Select elements that either don't have the specified attribute, or do have the specified attribute but not with a certain value."
+          title: “选择不具有指定属性的元素，或者具有指定属性但不具有某个值的元素”。
           doc: attribute-not-equal-selector
           from: "1.0"
 
         - text: '[name^="value"]'
-          title: Selects elements that have the specified attribute with a value beginning exactly with a given string.
+          title: 选择具有指定属性的元素，该值具有与给定字符串完全一致的值。
           doc: attribute-starts-with-selector
           from: "1.0"
 
         - text: '[name]'
-          title: "Selects elements that have the specified attribute, with any value."
+          title: “选择具有指定属性的元素，具有任何值”。
           doc: has-attribute-selector
           from: "1.0"
 
         - text: '[name="value"][name2="value2"]'
-          title: Matches elements that match all of the specified attribute filters.
+          title: 匹配所有指定的属性过滤器的元素。
           doc: multiple-attribute-selector
           from: "1.0"
 
@@ -308,52 +308,52 @@ selectors:
       items:
 
         - text: :first-child
-          title: Selects all elements that are the first child of their parent.
+          title: 选择所有的元素，它们是父代的第一个子节点。
           doc: first-child-selector
           from: "1.1.4"
 
         - text: :first-of-type
-          title: Selects all elements that are the first among siblings of the same element name.
+          title: 选择同一元素名称的兄弟姐妹中第一个的所有元素。
           doc: first-of-type-selector
           from: "1.9"
 
         - text: :last-child
-          title: Selects all elements that are the last child of their parent.
+          title: 选择所有作为父母最后一个孩子的元素。
           doc: last-child-selector
           from: "1.1.4"
 
         - text: :last-of-type
-          title: Selects all elements that are the last among siblings of the same element name.
+          title: 选择同一元素名称的兄弟姐妹中最后一个的所有元素。
           doc: last-of-type-selector
           from: "1.9"
 
         - text: :nth-child()
-          title: Selects all elements that are the nth-child of their parent.
+          title: 选择所有元素，它们是父项的第n个子节点。
           doc: nth-child-selector
           from: "1.1.4"
 
         - text: :nth-last-child()
-          title: "Selects all elements that are the nth-child of their parent, counting from the last element to the first."
+          title: “选择所有的元素，它们是父元素的第n个子元素，从最后一个元素开始计数。
           doc: nth-last-child-selector
           from: "1.9"
 
         - text: :nth-last-of-type()
-          title: "Selects all elements that are the nth-child of their parent, counting from the last element to the first."
+          title: “选择所有的元素，它们是父元素的第n个子元素，从最后一个元素开始计数。
           doc: nth-last-of-type-selector
           from: "1.9"
 
         - text: :nth-of-type()
-          title: Selects all elements that are the nth child of their parent in relation to siblings with the same element name.
+          title: 选择与父元素的第n个子元素相关的元素名称相同的所有元素。
           doc: nth-of-type-selector
           from: "1.9"
 
         - text: :only-child
-          title: Selects all elements that are the only child of their parent.
+          title: 选择所有作为其父项的唯一子元素。
           doc: only-child-selector
           from: "1.1.4"
 
         - text: :only-of-type()
-          title: Selects all elements that have no siblings with the same element name.
+          title: 选择所有不具有相同元素名称的兄弟节点的元素。
           doc: only-of-type-selector
           from: "1.9"
 
@@ -363,77 +363,77 @@ selectors:
       items:
 
         - text: :button
-          title: Selects all button elements and elements of type button.
+          title: 选择类型按钮的所有按钮元素和元素。
           doc: button-selector
           from: "1.0"
 
         - text: :checkbox
-          title: Selects all elements of type checkbox.
+          title: 选择所有元素的复选框。
           doc: checkbox-selector
           from: "1.0"
 
         - text: :checked
-          title: Matches all elements that are checked.
+          title: 匹配所有检查的元素。
           doc: checked-selector
           from: "1.0"
 
         - text: :disabled
-          title: Selects all elements that are disabled.
+          title: 选择所有禁用的元素。
           doc: disabled-selector
           from: "1.0"
 
         - text: :enabled
-          title: Selects all elements that are enabled.
+          title: 选择启用的所有元素。
           doc: enabled-selector
           from: "1.0"
 
         - text: :focus
-          title: Selects element if it is currently focused.
+          title: 选择元素，如果它是当前焦点。
           doc: focus-selector
           from: "1.6"
 
         - text: :file
-          title: Selects all elements of type file.
+          title: 选择文件类型的所有元素。
           doc: file-selector
           from: "1.0"
 
         - text: :image
-          title: Selects all elements of type image.
+          title: 选择图像类型的所有元素。
           doc: image-selector
           from: "1.0"
 
         - text: :input
-          title: "Selects all input, textarea, select and button elements."
+          title: “选择所有输入，文本区域，选择和按钮元素”。
           doc: input-selector
           from: "1.0"
 
         - text: :password
-          title: Selects all elements of type password.
+          title: 选择密码类型的所有元素。
           doc: password-selector
           from: "1.0"
 
         - text: :radio
-          title: Selects all elements of type radio.
+          title: 选择radio类型的所有元素。
           doc: radio-selector
           from: "1.0"
 
         - text: :reset
-          title: Selects all elements of type reset.
+          title: 选择所有复位类型的元素。
           doc: reset-selector
           from: "1.0"
 
         - text: :selected
-          title: Selects all elements that are selected.
+          title: 选择所有选中的元素。
           doc: selected-selector
           from: "1.0"
 
         - text: :submit
-          title: Selects all elements of type submit.
+          title: 选择提交类型的所有元素。
           doc: submit-selector
           from: "1.0"
 
         - text: :text
-          title: Selects all elements of type text.
+          title: 选择文本类型的所有元素。
           doc: text-selector
           from: "1.0"
 
@@ -447,31 +447,31 @@ attributes:
       items:
 
         - text: .attr()
-          title: Get the value of an attribute for the first element in the set of matched elements or set one or more attributes for every matched element.
+          title: 获取匹配元素集合中第一个元素的属性值，或为每个匹配元素设置一个或多个属性。
           doc: attr
           src: jQuery.fn.attr
           from: "1.0"
 
         - text: .prop()
-          title: Get the value of a property for the first element in the set of matched elements or set one or more properties for every matched element.
+          title: 获取匹配元素集合中第一个元素的属性值，或为每个匹配元素设置一个或多个属性。
           doc: prop
           src: jQuery.fn.prop
           from: "1.6"
 
         - text: .removeAttr()
-          title: Remove an attribute from each element in the set of matched elements.
+          title: 从匹配元素集合中的每个元素中删除一个属性。
           doc: removeAttr
           src: jQuery.fn.removeAttr
           from: "1.0"
 
         - text: .removeProp()
-          title: Remove a property for the set of matched elements.
+          title: 删除一组匹配元素的属性。
           doc: removeProp
           src: jQuery.fn.removeProp
           from: "1.6"
 
         - text: .val()
-          title: Get the current value of the first element in the set of matched elements or set the value of every matched element.
+          title: 获取匹配元素集合中第一个元素的当前值，或设置每个匹配元素的值。
           doc: val
           src: jQuery.fn.val
           from: "1.0"
@@ -481,49 +481,49 @@ attributes:
       items:
 
         - text: .addClass()
-          title: Adds the specified class(es) to each of the set of matched elements.
+          title: 将指定的类添加到匹配元素的每一组中。
           doc: addClass
           src: jQuery.fn.addClass
           from: "1.0"
 
         - text: .css()
-          title: Get the value of a style property for the first element in the set of matched elements or set one or more CSS properties for every matched element.
+          title: 获取匹配元素集合中第一个元素的样式属性的值，或为每个匹配元素设置一个或多个CSS属性。
           doc: css
           src: jQuery.fn.css
           from: "1.0"
 
         - text: jQuery.cssHooks
-          title: "Provides a way to hook directly into jQuery to override how particular CSS properties are retrieved or set. Amongst other uses, cssHooks can be used to create custom, browser-normalized properties for CSS3 features such as box-shadows and gradients."
+          title: “提供了一种直接钩入jQuery的方法来覆盖特定的CSS属性的检索或设置。除了其他用途之外，还可以使用cssHooks为CSS3功能（如框阴影和渐变）创建自定义浏览器归一化的属性。
           doc: jQuery.cssHooks
           src: jQuery.cssHooks
           from: "1.4.3"
 
         - text: jQuery.cssNumber
-          title: "An object containing all CSS properties that may be used without a unit. The .css() method uses this object to see if it may append px to unitless values.."
+          title: “包含可能没有单元的所有CSS属性的对象.css（）方法使用此对象来查看它是否可以将px附加到无单位值。”
           doc: jQuery.cssNumber
           src: jQuery.cssNumber
           from: "1.4.3"
 
         - text:  jQuery.escapeSelector()
-          title: "Escapes any character that has a special meaning in a CSS selector."
+          title: “在CSS选择器中转义具有特殊含义的任何字符”。
           doc: jQuery.escapeSelector
           src: jQuery.escapeSelector
           from: "3.0"
 
         - text: .hasClass()
-          title: Determine whether any of the matched elements are assigned the given class.
+          title: 确定是否有任何匹配的元素被分配给给定的类。
           doc: hasClass
           src: jQuery.fn.hasClass
           from: "1.2"
 
         - text: .removeClass()
-          title: "Remove a single class, multiple classes, or all classes from each element in the set of matched elements."
+          title: “从匹配元素集合中的每个元素中删除单个类，多个类或所有类。”
           doc: removeClass
           src: jQuery.fn.removeClass
           from: "1.0"
 
         - text: .toggleClass()
-          title: "Add or remove one or more classes from each element in the set of matched elements, depending on either the class's presence or the value of the switch argument."
+          title: “根据类的存在或切换参数的值，从匹配元素集合中的每个元素添加或删除一个或多个类。”
           doc: toggleClass
           src: jQuery.fn.toggleClass
           from: "1.0"
@@ -534,37 +534,37 @@ attributes:
       items:
 
         - text: .height()
-          title: Get the current computed height for the first element in the set of matched elements or set the height of every matched element.
+          title: 获取匹配元素集合中第一个元素的当前计算高度，或设置每个匹配元素的高度。
           doc: height
           src: jQuery.fn.height
           from: "1.0"
 
         - text: .innerHeight()
-          title: "Get the current computed height for the first element in the set of matched elements, including padding but not border."
+          title: “获取匹配元素集合中第一个元素的当前计算高度，包括填充但不是边框。
           doc: innerHeight
           src: jQuery.fn.innerHeight
           from: "1.2.6"
 
         - text: .innerWidth()
-          title: "Get the current computed width for the first element in the set of matched elements, including padding but not border."
+          title: “获取匹配元素集合中第一个元素的当前计算宽度，包括填充但不是边框。
           doc: innerWidth
           src: jQuery.fn.innerWidth
           from: "1.2.6"
 
         - text: .outerHeight()
-          title: "Get the current computed height for the first element in the set of matched elements, including padding, border, and optionally margin."
+          title: “获取匹配元素集合中第一个元素的当前计算高度，包括填充，边框和可选边距。”
           doc: outerHeight
           src: jQuery.fn.outerHeight
           from: "1.2.6"
 
         - text: .outerWidth()
-          title: "Get the current computed width for the first element in the set of matched elements, including padding and border."
+          title: “获取匹配元素集合中第一个元素的当前计算宽度，包括填充和边框。
           doc: outerWidth
           src: jQuery.fn.outerWidth
           from: "1.2.6"
 
         - text: .width()
-          title: Get the current computed width for the first element in the set of matched elements or set the width of every matched element.
+          title: 获取匹配元素集合中第一个元素的当前计算宽度，或设置每个匹配元素的宽度。
           doc: width
           src: jQuery.fn.width
           from: "1.0"
@@ -574,31 +574,31 @@ attributes:
       items:
 
         - text: .offset()
-          title: "Get the current coordinates of the first element, or set the coordinates of every element, in the set of matched elements, relative to the document."
+          title: “获取第一个元素的当前坐标，或设置相对于文档的匹配元素集合中每个元素的坐标。”
           doc: offset
           src: jQuery.fn.offset
           from: "1.2"
 
         - text: .offsetParent()
-          title: Get the closest ancestor element that is positioned.
+          title: 获取最接近的祖先元素。
           doc: offsetParent
           src: jQuery.fn.offsetParent
           from: "1.2.6"
 
         - text: .position()
-          title: "Get the current coordinates of the first element in the set of matched elements, relative to the offset parent."
+          title: “获取匹配元素集合中相对于偏移父元素的第一个元素的当前坐标。
           doc: position
           src: jQuery.fn.position
           from: "1.2"
 
         - text: .scrollLeft()
-          title: Get the current horizontal position of the scroll bar for the first element in the set of matched elements or set the horizontal position of the scroll bar for every matched element.
+          title: 获取匹配元素集合中第一个元素的滚动条的当前水平位置，或为每个匹配元素设置滚动条的水平位置。
           doc: scrollLeft
           src: jQuery.fn.scrollLeft
           from: "1.2.6"
 
         - text: .scrollTop()
-          title: Get the current vertical position of the scroll bar for the first element in the set of matched elements or set the vertical position of the scroll bar for every matched element.
+          title: 获取匹配元素集合中第一个元素的滚动条的当前垂直位置，或为每个匹配元素设置滚动条的垂直位置。
           doc: scrollTop
           src: jQuery.fn.scrollTop
           from: "1.2.6"
@@ -608,31 +608,31 @@ attributes:
       items:
 
         - text: jQuery.data()
-          title: Store arbitrary data associated with the specified element and/or return the value that was set.
+          title: 存储与指定元素关联的任意数据和/或返回设置的值。
           doc: jQuery.data
           src: jQuery.data
           from: "1.2.3"
 
         - text: .data()
-          title: Store arbitrary data associated with the matched elements or return the value at the named data store for the first element in the set of matched elements.
+          title: 存储与匹配元素相关联的任意数据，或返回匹配元素集合中第一个元素的命名数据存储中的值。
           doc: data
           src: jQuery.fn.data
           from: "1.2.3"
 
         - text: jQuery.hasData()
-          title: Determine whether an element has any jQuery data associated with it.
+          title: 确定一个元素是否有与之相关联的任何jQuery数据。
           doc: jQuery.hasData
           src: jQuery.hasData
           from: "1.5"
 
         - text: jQuery.removeData()
-          title: Remove a previously-stored piece of data.
+          title: 删除以前存储的数据。
           doc: jQuery.removeData
           src: jQuery.removeData
           from: "1.2.3"
 
         - text: .removeData()
-          title: Remove a previously-stored piece of data.
+          title: 删除以前存储的数据。
           doc: removeData
           src: jQuery.fn.removeData
           from: "1.2.3"
@@ -648,7 +648,7 @@ manipulation:
       items:
 
         - text: .clone()
-          title: Create a deep copy of the set of matched elements.
+          title: 创建一组匹配元素的深层副本。
           doc: clone
           src: jQuery.fn.clone
           from: "1.0"
@@ -658,19 +658,19 @@ manipulation:
       items:
 
         - text: .wrap()
-          title: Wrap an HTML structure around each element in the set of matched elements.
+          title: 在匹配元素集合中的每个元素周围包装一个HTML结构。
           doc: wrap
           src: jQuery.fn.wrap
           from: "1.0"
 
         - text: .wrapAll()
-          title: Wrap an HTML structure around all elements in the set of matched elements.
+          title: 在一组匹配的元素中的所有元素周围包装一个HTML结构。
           doc: wrapAll
           src: jQuery.fn.wrapAll
           from: "1.2"
 
         - text: .wrapInner()
-          title: Wrap an HTML structure around the content of each element in the set of matched elements.
+          title: 围绕一组匹配元素中的每个元素的内容包装一个HTML结构。
           doc: wrapInner
           src: jQuery.fn.wrapInner
           from: "1.2"
@@ -680,37 +680,37 @@ manipulation:
       items:
 
         - text: .append()
-          title: "Insert content, specified by the parameter, to the end of each element in the set of matched elements."
+          title: “将参数指定的内容插入匹配元素集合中每个元素的末尾。”
           doc: append
           src: jQuery.fn.append
           from: "1.0"
 
         - text: .appendTo()
-          title: Insert every element in the set of matched elements to the end of the target.
+          title: 将匹配元素集中的每个元素插入目标的末尾。
           doc: appendTo
           src: jQuery.fn.appendTo
           from: "1.0"
 
         - text: .html()
-          title: Get the HTML contents of the first element in the set of matched elements or set the HTML contents of every matched element.
+          title: 获取匹配元素集合中第一个元素的HTML内容，或设置每个匹配元素的HTML内容。
           doc: html
           src: jQuery.fn.html
           from: "1.0"
 
         - text: .prepend()
-          title: "Insert content, specified by the parameter, to the beginning of each element in the set of matched elements."
+          title: “将参数指定的内容插入到匹配元素集合中每个元素的开头。”
           doc: prepend
           src: jQuery.fn.prepend
           from: "1.0"
 
         - text: .prependTo()
-          title: Insert every element in the set of matched elements to the beginning of the target.
+          title: 将匹配元素集中的每个元素插入目标的开头。
           doc: prependTo
           src: jQuery.fn.prependTo
           from: "1.0"
 
         - text: .text()
-          title: "Get the combined text contents of each element in the set of matched elements, including their descendants, or set the text contents of the matched elements."
+          title: “获取匹配元素集合中每个元素的组合文本内容，包括其后代，或设置匹配元素的文本内容。
           doc: text
           src: jQuery.fn.text
           from: "1.0"
@@ -720,25 +720,25 @@ manipulation:
       items:
 
         - text: .after()
-          title: "Insert content, specified by the parameter, after each element in the set of matched elements."
+          title: “插入由参数指定的内容，在匹配元素集合中的每个元素之后。
           doc: after
           src: jQuery.fn.after
           from: "1.0"
 
         - text: .before()
-          title: "Insert content, specified by the parameter, before each element in the set of matched elements."
+          title: “插入由参数指定的内容，在匹配元素集合中的每个元素之前。
           doc: before
           src: jQuery.fn.before
           from: "1.0"
 
         - text: .insertAfter()
-          title: Insert every element in the set of matched elements after the target.
+          title: 在目标后插入匹配元素集合中的每个元素。
           doc: insertAfter
           src: jQuery.fn.insertAfter
           from: "1.0"
 
         - text: .insertBefore()
-          title: Insert every element in the set of matched elements before the target.
+          title: 在目标之前插入匹配元素集合中的每个元素。
           doc: insertBefore
           src: jQuery.fn.insertBefore
           from: "1.0"
@@ -748,25 +748,25 @@ manipulation:
       items:
 
         - text: .detach()
-          title: Remove the set of matched elements from the DOM.
+          title: 从DOM中移除匹配的元素集。
           doc: detach
           src: jQuery.fn.detach
           from: "1.4"
 
         - text: .empty()
-          title: Remove all child nodes of the set of matched elements from the DOM.
+          title: 从DOM中删除匹配元素集中的所有子节点。
           doc: empty
           src: jQuery.fn.empty
           from: "1.0"
 
         - text: .remove()
-          title: Remove the set of matched elements from the DOM.
+          title: 从DOM中移除匹配的元素集。
           doc: remove
           src: jQuery.fn.remove
           from: "1.0"
 
         - text: .unwrap()
-          title: "Remove the parents of the set of matched elements from the DOM, leaving the matched elements in their place."
+          title: “从DOM中删除一组匹配元素的父母，将匹配的元素留在他们的位置。
           doc: unwrap
           src: jQuery.fn.unwrap
           from: "1.4"
@@ -776,13 +776,13 @@ manipulation:
       items:
 
         - text: .replaceAll()
-          title: Replace each target element with the set of matched elements.
+          title: 用匹配元素的集合替换每个目标元素。
           doc: replaceAll
           src: jQuery.fn.replaceAll
           from: "1.2"
 
         - text: .replaceWith()
-          title: Replace each element in the set of matched elements with the provided new content.
+          title: 使用提供的新内容替换匹配元素集中的每个元素。
           doc: replaceWith
           src: jQuery.fn.replaceWith
           from: "1.2"
@@ -798,55 +798,55 @@ traversing:
       items:
 
         - text: .eq()
-          title: Reduce the set of matched elements to the one at the specified index.
+          title: 将匹配元素的集合缩小到指定索引的匹配元素。
           doc: eq
           src: jQuery.fn.eq
           from: "1.1.2"
 
         - text: .filter()
-          title: Reduce the set of matched elements to those that match the selector or pass the function's test.
+          title: 将匹配元素的集合减少到与选择器匹配的元素，或者传递函数的测试。
           doc: filter
           src: jQuery.fn.filter
           from: "1.0"
 
         - text: .first()
-          title: Reduce the set of matched elements to the first in the set.
+          title: 将匹配元素的集合减少到集合中的第一个元素。
           doc: first
           src: jQuery.fn.first
           from: "1.4"
 
         - text: .has()
-          title: Reduce the set of matched elements to those that have a descendant that matches the selector or DOM element.
+          title: 将匹配元素的集合减少到具有与选择器或DOM元素匹配的后代的元素。
           doc: has
           src: jQuery.fn.has
           from: "1.4"
 
         - text: .is()
-          title: Check the current matched set of elements against a selector and return true if at least one of these elements matches the selector.
+          title: 根据选择器检查当前匹配的元素集合，如果至少其中一个元素与选择器匹配，则返回true。
           doc: is
           src: jQuery.fn.is
           from: "1.0"
 
         - text: .last()
-          title: Reduce the set of matched elements to the final one in the set.
+          title: 将匹配元素的集合减少到集合中的最后一个元素。
           doc: last
           src: jQuery.fn.last
           from: "1.4"
 
         - text: .map()
-          title: "Pass each element in the current matched set through a function, producing a new jQuery object containing the return values."
+          title: “通过函数传递当前匹配集中的每个元素，生成一个包含返回值的新jQuery对象。”
           doc: map
           src: jQuery.fn.map
           from: "1.2"
 
         - text: .not()
-          title: Remove elements from the set of matched elements.
+          title: 从匹配元素集中删除元素。
           doc: not
           src: jQuery.fn.not
           from: "1.0"
 
         - text: .slice()
-          title: Reduce the set of matched elements to a subset specified by a range of indices.
+          title: 将匹配元素的集合减少到由一系列索引指定的子集。
           doc: slice
           src: jQuery.fn.slice
           from: "1.1.4"
@@ -856,38 +856,38 @@ traversing:
       items:
 
         - text: .add()
-          title: Add elements to the set of matched elements.
+          title: 将元素添加到匹配元素集合中。
           doc: add
           src: jQuery.fn.add
           from: "1.0"
 
         - text: .addBack()
-          title: "Add the previous set of elements on the stack to the current set, optionally filtered by a selector."
+          title: “将堆栈上的前一组元素添加到当前集合，可选择由选择器过滤。”
           doc: addBack
           src: jQuery.fn.addBack
           from: "1.8"
 
         - text: .andSelf()
-          title: Add the previous set of elements on the stack to the current set.
+          title: 将堆栈上的前一组元素添加到当前集合。
           doc: andSelf
           src: jQuery.fn.andSelf
           from: "1.2"
           deprecated: "1.8"
 
         - text: .contents()
-          title: "Get the children of each element in the set of matched elements, including text and comment nodes."
+          title: “获取匹配元素集合中每个元素的子元素，包括文本和注释节点。”
           doc: contents
           src: jQuery.fn.contents
           from: "1.2"
 
         - text: .each()
-          title: "Iterate over a jQuery object, executing a function for each matched element."
+          title: “迭代一个jQuery对象，为每个匹配的元素执行一个函数。”
           doc: each
           src: jQuery.fn.each
           from: "1.0"
 
         - text: .end()
-          title: End the most recent filtering operation in the current chain and return the set of matched elements to its previous state.
+          title: 结束当前链中最近的过滤操作，并将匹配元素的集合返回到之前的状态。
           doc: end
           src: jQuery.fn.end
           from: "1.0"
@@ -897,79 +897,79 @@ traversing:
       items:
 
         - text: .children()
-          title: "Get the children of each element in the set of matched elements, optionally filtered by a selector."
+          title: “获取匹配元素集中的每个元素的子元素，可选择由选择器过滤。
           doc: children
           src: jQuery.fn.children
           from: "1.0"
 
         - text: .closest()
-          title: "Get the first ancestor element that matches the selector, beginning at the current element and progressing up through the DOM tree."
+          title: “获取与选择器匹配的第一个祖先元素，从当前元素开始，并通过DOM树进行。
           doc: closest
           src: jQuery.fn.closest
           from: "1.3"
 
         - text: .find()
-          title: "Get the descendants of each element in the current set of matched elements, filtered by a selector."
+          title: “获取当前匹配元素集合中每个元素的后代，由选择器过滤。”
           doc: find
           src: jQuery.fn.find
           from: "1.0"
 
         - text: .next()
-          title: "Get the immediately following sibling of each element in the set of matched elements. If a selector is provided, it retrieves the next sibling only if it matches that selector."
+          title: “获取匹配元素集合中每个元素的紧跟同步，如果提供了一个选择器，则只有在匹配该选择符的情况下才能检索下一个兄弟节点。
           doc: next
           src: jQuery.fn.next
           from: "1.0"
 
         - text: .nextAll()
-          title: "Get all following siblings of each element in the set of matched elements, optionally filtered by a selector."
+          title: “获取匹配元素集中的每个元素的所有以下兄弟节点，可选择由选择器过滤。
           doc: nextAll
           src: jQuery.fn.nextAll
           from: "1.2"
 
         - text: .nextUntil()
-          title: Get all following siblings of each element up to but not including the element matched by the selector.
+          title: 获取每个元素的所有以下兄弟节点，但不包括由选择器匹配的元素。
           doc: nextUntil
           src: jQuery.fn.nextUntil
           from: "1.4"
 
         - text: .parent()
-          title: "Get the parent of each element in the current set of matched elements, optionally filtered by a selector."
+          title: “获取当前匹配元素集合中每个元素的父项，可选择由选择器过滤。
           doc: parent
           src: jQuery.fn.parent
           from: "1.0"
 
         - text: .parents()
-          title: "Get the ancestors of each element in the current set of matched elements, optionally filtered by a selector."
+          title: “获取当前匹配元素集合中每个元素的祖先，可选择由选择器过滤。”
           doc: parents
           src: jQuery.fn.parents
           from: "1.0"
 
         - text: .parentsUntil()
-          title: "Get the ancestors of each element in the current set of matched elements, up to but not including the element matched by the selector."
+          title: “获取当前匹配元素集合中每个元素的祖先，直到但不包括由选择符匹配的元素。
           doc: parentsUntil
           src: jQuery.fn.parentsUntil
           from: "1.4"
 
         - text: .prev()
-          title: "Get the immediately preceding sibling of each element in the set of matched elements, optionally filtered by a selector."
+          title: “获取匹配元素集中的每个元素的前一个同级，可选择由选择器过滤。
           doc: prev
           src: jQuery.fn.prev
           from: "1.0"
 
         - text: .prevAll()
-          title: "Get all preceding siblings of each element in the set of matched elements, optionally filtered by a selector."
+          title: “获取匹配元素集合中每个元素的所有先前兄弟节点，可选择由选择器过滤。
           doc: prevAll
           src: jQuery.fn.prevAll
           from: "1.2"
 
         - text: .prevUntil()
-          title: Get all preceding siblings of each element up to but not including the element matched by the selector.
+          title: 获取每个元素的所有以前的兄弟姐妹，但不包括由选择器匹配的元素。
           doc: prevUntil
           src: jQuery.fn.prevUntil
           from: "1.4"
 
         - text: .siblings()
-          title: "Get the siblings of each element in the set of matched elements, optionally filtered by a selector."
+          title: “获取匹配元素集合中每个元素的兄弟姐妹，可选择由选择器过滤。”
           doc: siblings
           src: jQuery.fn.siblings
           from: "1.0"
@@ -985,7 +985,7 @@ events:
       items:
 
         - text: .error()
-          title: Bind an event handler to the 'error' JavaScript event.
+          title: 将事件处理程序绑定到“错误”JavaScript事件。
           doc: error
           src: jQuery.fn.error
           from: "1.0"
@@ -993,13 +993,13 @@ events:
           removed: "3.0"
 
         - text: .resize()
-          title: "Bind an event handler to the 'resize' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”resize“JavaScript事件，或触发元素上的事件。
           doc: resize
           src: jQuery.fn.resize
           from: "1.0"
 
         - text: .scroll()
-          title: "Bind an event handler to the 'scroll' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”滚动“JavaScript事件，或触发元素上的事件。
           doc: scroll
           src: jQuery.fn.scroll
           from: "1.0"
@@ -1009,7 +1009,7 @@ events:
       items:
 
         - text: .load()
-          title: Bind an event handler to the 'load' JavaScript event.
+          title: 将事件处理程序绑定到“加载”JavaScript事件。
           doc: load-event
           src: jQuery.fn.load
           from: "1.0"
@@ -1017,13 +1017,13 @@ events:
           removed: "3.0"
 
         - text: .ready()
-          title: Specify a function to execute when the DOM is fully loaded.
+          title: 指定DOM完全加载时执行的函数。
           doc: ready
           src: jQuery.fn.ready
           from: "1.0"
 
         - text: .unload()
-          title: Bind an event handler to the 'unload' JavaScript event.
+          title: 将事件处理程序绑定到“卸载”JavaScript事件。
           doc: unload
           src: jQuery.fn.unload
           from: "1.0"
@@ -1035,19 +1035,19 @@ events:
       items:
 
         - text: .bind()
-          title: Attach a handler to an event for the elements.
+          title: 将一个处理程序附加到事件的元素。
           doc: bind
           src: jQuery.fn.bind
           from: "1.0"
 
         - text: .delegate()
-          title: "Attach a handler to one or more events for all elements that match the selector, now or in the future, based on a specific set of root elements."
+          title: “将一个或多个事件附加到一个或多个事件的所有元素，与现在或将来的选择器匹配，基于一组特定的根元素。
           doc: delegate
           src: jQuery.fn.delegate
           from: "1.4.2"
 
         - text: .die()
-          title: Remove all event handlers previously attached using .live() from the elements.
+          title: 从元素中删除以前使用.live（）附加的所有事件处理程序。
           doc: die
           src: jQuery.fn.die
           from: "1.3"
@@ -1055,7 +1055,7 @@ events:
           removed: "1.9"
 
         - text: .live()
-          title: "Attach a handler to the event for all elements which match the current selector, now and in the future."
+          title: “现在和将来，为与当前选择器匹配的所有元素附加事件处理程序。”
           doc: live
           src: jQuery.fn.live
           from: "1.3"
@@ -1063,43 +1063,43 @@ events:
           removed: "1.9"
 
         - text: .off()
-          title: Remove an event handler.
+          title: 删除事件处理程序。
           doc: off
           src: jQuery.fn.off
           from: "1.7"
 
         - text: .on()
-          title: Attach an event handler function for one or more events to the selected elements.
+          title: 将一个或多个事件的事件处理函数附加到所选元素。
           doc: on
           src: jQuery.fn.on
           from: "1.7"
 
         - text: .one()
-          title: Attach a handler to an event for the elements. The handler is executed at most once per element.
+          title: 将一个处理程序附加到事件的元素。处理程序每​​个元素最多执行一次。
           doc: one
           src: jQuery.fn.one
           from: "1.1"
 
         - text: .trigger()
-          title: Execute all handlers and behaviors attached to the matched elements for the given event type.
+          title: 执行附加到给定事件类型的匹配元素的所有处理程序和行为。
           doc: trigger
           src: jQuery.fn.trigger
           from: "1.0"
 
         - text: .triggerHandler()
-          title: Execute all handlers attached to an element for an event.
+          title: 执行附加到事件元素的所有处理程序。
           doc: triggerHandler
           src: jQuery.fn.triggerHandler
           from: "1.2"
 
         - text: .unbind()
-          title: Remove a previously-attached event handler from the elements.
+          title: 从元素中删除先前附加的事件处理程序。
           doc: unbind
           src: jQuery.fn.unbind
           from: "1.0"
 
         - text: .undelegate()
-          title: Remove a handler from the event for all elements which match the current selector, now or in the future, based upon a specific set of root elements.
+          title: 根据一组特定的根元素，从事件中删除与现在或将来的当前选择器匹配的所有元素的处理程序。
           doc: undelegate
           src: jQuery.fn.undelegate
           from: "1.4.2"
@@ -1109,43 +1109,43 @@ events:
       items:
 
         - text: .blur()
-          title: "Bind an event handler to the 'blur' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”blur“JavaScript事件，或者在元素上触发该事件。”
           doc: blur
           src: jQuery.fn.blur
           from: "1.0"
 
         - text: .change()
-          title: "Bind an event handler to the 'change' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”更改“JavaScript事件，或在元素上触发该事件。
           doc: change
           src: jQuery.fn.change
           from: "1.0"
 
         - text: .focus()
-          title: "Bind an event handler to the 'focus' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”focus“JavaScript事件，或者触发该元素上的事件。
           doc: focus
           src: jQuery.fn.focus
           from: "1.0"
 
         - text: .focusin()
-          title: "Bind an event handler to the 'focusin' JavaScript event."
+          title: “将事件处理程序绑定到”focusin“JavaScript事件。
           doc: focusin
           src: jQuery.fn.focusin
           from: "1.4"
 
         - text: .focusout()
-          title: "Bind an event handler to the 'focusout' JavaScript event."
+          title: “将事件处理程序绑定到”focusout“JavaScript事件。
           doc: focusout
           src: jQuery.fn.focusout
           from: "1.4"
 
         - text: .select()
-          title: "Bind an event handler to the 'select' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”select“JavaScript事件，或在元素上触发该事件。”
           doc: select
           src: jQuery.fn.select
           from: "1.0"
 
         - text: .submit()
-          title: "Bind an event handler to the 'submit' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”提交“JavaScript事件，或触发元素上的事件。
           doc: submit
           src: jQuery.fn.submit
           from: "1.0"
@@ -1155,19 +1155,19 @@ events:
       items:
 
         - text: .keydown()
-          title: "Bind an event handler to the 'keydown' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”keydown“JavaScript事件，或在元素上触发该事件。
           doc: keydown
           src: jQuery.fn.keydown
           from: "1.0"
 
         - text: .keypress()
-          title: "Bind an event handler to the 'keypress' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”keypress“JavaScript事件，或触发元素上的事件。
           doc: keypress
           src: jQuery.fn.keypress
           from: "1.0"
 
         - text: .keyup()
-          title: "Bind an event handler to the 'keyup' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”keyup“JavaScript事件，或在元素上触发该事件。”
           doc: keyup
           src: jQuery.fn.keyup
           from: "1.0"
@@ -1178,73 +1178,73 @@ events:
       items:
 
         - text: .click()
-          title: "Bind an event handler to the 'click' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”点击“JavaScript事件，或触发元素上的事件。
           doc: click
           src: jQuery.fn.click
           from: "1.0"
 
         - text: .contextMenu()
-          title: "Bind an event handler to the 'contextmenu' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”contextmenu“JavaScript事件，或者触发该元素上的事件。
           doc: contextmenu
           src: jQuery.fn.contextmenu
           from: "1.0"
 
         - text: .dblclick()
-          title: "Bind an event handler to the 'dblclick' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”dblclick“JavaScript事件，或者触发元素上的事件。
           doc: dblclick
           src: jQuery.fn.dblclick
           from: "1.0"
 
         - text: .hover()
-          title: "Bind two handlers to the matched elements, to be executed when the mouse pointer enters and leaves the elements."
+          title: “将两个处理程序绑定到匹配的元素，当鼠标指针进入和离开元素时执行。
           doc: hover
           src: jQuery.fn.hover
           from: "1.0"
 
         - text: .mousedown()
-          title: "Bind an event handler to the 'mousedown' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”mousedown“JavaScript事件，或者在元素上触发该事件。
           doc: mousedown
           src: jQuery.fn.mousedown
           from: "1.0"
 
         - text: .mouseenter()
-          title: "Bind an event handler to be fired when the mouse enters an element, or trigger that handler on an element."
+          title: “绑定一个事件处理程序，当鼠标进入一个元素时触发，或者触发元素上的处理程序。”
           doc: mouseenter
           src: jQuery.fn.mouseenter
           from: "1.0"
 
         - text: .mouseleave()
-          title: "Bind an event handler to be fired when the mouse leaves an element, or trigger that handler on an element."
+          title: “绑定一个事件处理程序，当鼠标离开一个元素时触发，或者触发元素上的处理程序。”
           doc: mouseleave
           src: jQuery.fn.mouseleave
           from: "1.0"
 
         - text: .mousemove()
-          title: "Bind an event handler to the 'mousemove' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到'mousemove'JavaScript事件，或者触发元素上的事件。
           doc: mousemove
           src: jQuery.fn.mousemove
           from: "1.0"
 
         - text: .mouseout()
-          title: "Bind an event handler to the 'mouseout' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”mouseout“JavaScript事件，或在元素上触发该事件。
           doc: mouseout
           src: jQuery.fn.mouseout
           from: "1.0"
 
         - text: .mouseover()
-          title: "Bind an event handler to the 'mouseover' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”mouseover“JavaScript事件，或者触发元素上的该事件。
           doc: mouseover
           src: jQuery.fn.mouseover
           from: "1.0"
 
         - text: .mouseup()
-          title: "Bind an event handler to the 'mouseup' JavaScript event, or trigger that event on an element."
+          title: “将事件处理程序绑定到”mouseup“JavaScript事件，或者在元素上触发该事件。”
           doc: mouseup
           src: jQuery.fn.mouseup
           from: "1.0"
 
         - text: .toggle()
-          title: "Bind two or more handlers to the matched elements, to be executed on alternate clicks."
+          title: “将两个或多个处理程序绑定到匹配的元素，以备用点击执行。”
           doc: toggle-event
           src: jQuery.fn.toggle
           from: "1.0"
@@ -1256,97 +1256,97 @@ events:
       items:
 
         - text: event.currentTarget
-          title: The current DOM element within the event bubbling phase.
+          title: 事件冒泡阶段中的当前DOM元素。
           doc: event.currentTarget
           from: "1.3"
 
         - text: event.delegateTarget
-          title: The element where the currently-called jQuery event handler was attached.
+          title: 附加了当前调用的jQuery事件处理程序的元素。
           doc: event.delegateTarget
           from: "1.7"
 
         - text: event.data
-          title: The optional data passed to jQuery.fn.bind when the current executing handler was bound.
+          title: 当当前执行的处理程序被绑定时，可选数据传递给jQuery.fn.bind。
           doc: event.data
           from: "1.1"
 
         - text: event.isDefaultPrevented()
-          title: Returns whether event.preventDefault() was ever called on this event object.
+          title: 返回是否在此事件对象上调用了event.preventDefault（）。
           doc: event.isDefaultPrevented
           from: "1.3"
 
         - text: event.isImmediatePropagationStopped()
-          title: Returns whether event.stopImmediatePropagation() was ever called on this event object.
+          title: 返回是否在此事件对象上调用了event.stopImmediatePropagation（）。
           doc: event.isImmediatePropagationStopped
           from: "1.3"
 
         - text: event.isPropagationStopped()
-          title: Returns whether event.stopPropagation() was ever called on this event object.
+          title: 返回是否在此事件对象上调用了event.stopPropagation（）。
           doc: event.isPropagationStopped
           from: "1.3"
 
         - text: event.metaKey
-          title: Indicates whether the META key was pressed when the event fired.
+          title: 表示当事件触发时是否按下了META键。
           doc: event.metaKey
           from: "1.0.4"
 
         - text: event.namespace
-          title: The namespace specified when the event was triggered.
+          title: 触发事件时指定的命名空间。
           doc: event.namespace
           from: "1.4.3"
 
         - text: event.pageX
-          title: The mouse position relative to the left edge of the document.
+          title: 相对于文档左边缘的鼠标位置。
           doc: event.pageX
           from: "1.0.4"
 
         - text: event.pageY
-          title: The mouse position relative to the top edge of the document.
+          title: 相对于文档顶部边缘的鼠标位置。
           doc: event.pageY
           from: "1.0.4"
 
         - text: event.preventDefault()
-          title: "If this method is called, the default action of the event will not be triggered."
+          title: “如果调用此方法，则不会触发事件的默认操作。”
           doc: event.preventDefault
           from: "1.0"
 
         - text: event.relatedTarget
-          title: "The other DOM element involved in the event, if any."
+          title: “事件中涉及的其他DOM元素（如果有的话）”。
           doc: event.relatedTarget
           from: "1.1.4"
 
         - text: event.result
-          title: "The last value returned by an event handler that was triggered by this event, unless the value was undefined."
+          title: “由事件触发的事件处理程序返回的最后一个值，除非该值未定义。
           doc: event.result
           from: "1.3"
 
         - text: event.stopImmediatePropagation()
-          title: Prevents other event handlers from being called.
+          title: 防止其他事件处理程序被调用。
           doc: event.stopImmediatePropagation
           from: "1.3"
 
         - text: event.stopPropagation()
-          title: "Prevents the event from bubbling up the DOM tree, preventing any parent handlers from being notified of the event."
+          title: “防止事件冒出DOM树，阻止任何父处理程序被通知事件。”
           doc: event.stopPropagation
           from: "1.0"
 
         - text: event.target
-          title: The DOM element that initiated the event.
+          title: 发起事件的DOM元素。
           doc: event.target
           from: "1.0"
 
         - text: event.timeStamp
-          title: "The difference in milliseconds between the time an event is triggered and January 1, 1970."
+          title: “事件触发时间与1970年1月1日之间的毫秒数之间的差异。”
           doc: event.timeStamp
           from: "1.2.6"
 
         - text: event.type
-          title: Describes the nature of the event.
+          title: 描述事件的性质。
           doc: event.type
           from: "1.0"
 
         - text: event.which
-          title: "For key or button events, this attribute indicates the specific button or key that was pressed."
+          title: “对于键或按钮事件，此属性表示按下的特定按钮或键。”
           doc: event.which
           from: "1.1.3"
 
@@ -1360,19 +1360,19 @@ effects:
       items:
 
         - text: .hide()
-          title: Hide the matched elements.
+          title: 隐藏匹配元素。
           doc: hide
           src: jQuery.fn.hide
           from: "1.0"
 
         - text: .show()
-          title: Display the matched elements.
+          title: 显示匹配的元素。
           doc: show
           src: jQuery.fn.show
           from: "1.0"
 
         - text: .toggle()
-          title: Display or hide the matched elements.
+          title: 显示或隐藏匹配的元素。
           doc: toggle
           src: jQuery.fn.toggle
           from: "1.0"
@@ -1382,73 +1382,73 @@ effects:
       items:
 
         - text: .animate()
-          title: Perform a custom animation of a set of CSS properties.
+          title: 执行一组CSS属性的自定义动画。
           doc: animate
           src: jQuery.fn.animate
           from: "1.0"
 
         - text: .clearQueue()
-          title: Remove from the queue all items that have not yet been run.
+          title: 从队列中删除所有尚未运行的项目。
           doc: clearQueue
           src: jQuery.fn.clearQueue
           from: "1.4"
 
         - text: .delay()
-          title: Set a timer to delay execution of subsequent items in the queue.
+          title: 设置一个计时器来延迟队列中后续项目的执行。
           doc: delay
           src: jQuery.fn.delay
           from: "1.4"
 
         - text: .dequeue()
-          title: Execute the next function on the queue for the matched elements.
+          title: 对匹配的元素执行队列中的下一个功能。
           doc: dequeue
           src: jQuery.fn.dequeue
           from: "1.2"
 
         - text: jQuery.dequeue()
-          title: Execute the next function on the queue for the matched element.
+          title: 在匹配元素的队列上执行下一个函数。
           doc: jQuery.dequeue
           src: jQuery.dequeue
           from: "1.3"
 
         - text: .finish()
-          title: "Stop the currently-running animation, remove all queued animations, and complete all animations for the matched elements."
+          title: “停止当前运行的动画，删除所有排队的动画，并完成匹配元素的所有动画。”
           doc: finish
           src: jQuery.fn.finish
           from: "1.9"
 
         - text: jQuery.fx.interval
-          title: The rate (in milliseconds) at which animations fire.
+          title: 动画触发的速率（毫秒）。
           doc: jQuery.fx.interval
           src: jQuery.fx.interval
           from: "1.4.3"
 
         - text: jQuery.fx.off
-          title: Globally disable all animations.
+          title: 全局禁用所有动画。
           doc: jQuery.fx.off
           src: jQuery.fx.off
           from: "1.3"
 
         - text: jQuery.speed
-          title: Creates an object containing a set of properties ready to be used in the definition of custom animations.
+          title: 创建一个包含一组属性的对象，准备在定制动画的定义中使用。
           doc: jQuery.speed
           src: jQuery.speed
           from: "1.0"
 
         - text: .queue()
-          title: Show or manipulate the queue of functions to be executed on the matched elements.
+          title: 显示或操纵要在匹配元素上执行的功能队列。
           doc: queue
           src: jQuery.fn.queue
           from: "1.2"
 
         - text: jQuery.queue()
-          title: Show or manipulate the queue of functions to be executed on the matched element.
+          title: 显示或操纵要在匹配元素上执行的功能队列。
           doc: jQuery.queue
           src: jQuery.queue
           from: "1.3"
 
         - text: .stop()
-          title: Stop the currently-running animation on the matched elements.
+          title: 停止匹配元素上当前运行的动画。
           doc: stop
           src: jQuery.fn.stop
           from: "1.2"
@@ -1458,25 +1458,25 @@ effects:
       items:
 
         - text: .fadeIn()
-          title: Display the matched elements by fading them to opaque.
+          title: 通过将它们淡化为不透明来显示匹配的元素。
           doc: fadeIn
           src: jQuery.fn.fadeIn
           from: "1.0"
 
         - text: .fadeOut()
-          title: Hide the matched elements by fading them to transparent.
+          title: 通过将它们淡化为透明来隐藏匹配的元素。
           doc: fadeOut
           src: jQuery.fn.fadeOut
           from: "1.0"
 
         - text: .fadeTo()
-          title: Adjust the opacity of the matched elements.
+          title: 调整匹配元素的不透明度。
           doc: fadeTo
           src: jQuery.fn.fadeTo
           from: "1.0"
 
         - text: .fadeToggle()
-          title: Display or hide the matched elements by animating their opacity.
+          title: 通过动画化其不透明度来显示或隐藏匹配的元素。
           doc: fadeToggle
           src: jQuery.fn.fadeToggle
           from: "1.4.4"
@@ -1486,19 +1486,19 @@ effects:
       items:
 
         - text: .slideDown()
-          title: Display the matched elements with a sliding motion.
+          title: 用滑动运动显示匹配的元素。
           doc: slideDown
           src: jQuery.fn.slideDown
           from: "1.0"
 
         - text: .slideToggle()
-          title: Display or hide the matched elements with a sliding motion.
+          title: 用滑动运动显示或隐藏匹配的元素。
           doc: slideToggle
           src: jQuery.fn.slideToggle
           from: "1.0"
 
         - text: .slideUp()
-          title: Hide the matched elements with a sliding motion.
+          title: 用滑动运动隐藏匹配的元素。
           doc: slideUp
           src: jQuery.fn.slideUp
           from: "1.0"
@@ -1514,37 +1514,37 @@ ajax:
       items:
 
         - text: .ajaxComplete()
-          title: Register a handler to be called when Ajax requests complete. This is an Ajax Event.
+          title: 注册在Ajax请求完成时调用的处理程序。这是一个Ajax事件。
           doc: ajaxComplete
           src: jQuery.fn.ajaxComplete
           from: "1.0"
 
         - text: .ajaxError()
-          title: Register a handler to be called when Ajax requests complete with an error. This is an Ajax Event.
+          title: 当Ajax请求完成并发生错误时，注册要调用的处理程序。这是一个Ajax事件。
           doc: ajaxError
           src: jQuery.fn.ajaxError
           from: "1.0"
 
         - text: .ajaxSend()
-          title: Attach a function to be executed before an Ajax request is sent. This is an Ajax Event.
+          title: 在发送Ajax请求之前附加要执行的函数。这是一个Ajax事件。
           doc: ajaxSend
           src: jQuery.fn.ajaxSend
           from: "1.0"
 
         - text: .ajaxStart()
-          title: Register a handler to be called when the first Ajax request begins. This is an Ajax Event.
+          title: 在第一个Ajax请求开始时，注册要调用的处理程序。这是一个Ajax事件。
           doc: ajaxStart
           src: jQuery.fn.ajaxStart
           from: "1.0"
 
         - text: .ajaxStop()
-          title: Register a handler to be called when all Ajax requests have completed. This is an Ajax Event.
+          title: 当所有Ajax请求完成时，注册要调用的处理程序。这是一个Ajax事件。
           doc: ajaxStop
           src: jQuery.fn.ajaxStop
           from: "1.0"
 
         - text: .ajaxSuccess()
-          title: Attach a function to be executed whenever an Ajax request completes successfully. This is an Ajax Event.
+          title: 在Ajax请求成功完成时附加要执行的函数。这是一个Ajax事件。
           doc: ajaxSuccess
           src: jQuery.fn.ajaxSuccess
           from: "1.0"
@@ -1554,19 +1554,19 @@ ajax:
       items:
 
         - text: jQuery.param()
-          title: "Create a serialized representation of an array or object, suitable for use in a URL query string or Ajax request."
+          title: “创建数组或对象的序列化表示，适用于URL查询字符串或Ajax请求。”
           doc: jQuery.param
           src: jQuery.param
           from: "1.2"
 
         - text: .serialize()
-          title: Encode a set of form elements as a string for submission.
+          title: 编写一组表单元素作为提交的字符串。
           doc: serialize
           src: jQuery.fn.serialize
           from: "1.0"
 
         - text: .serializeArray()
-          title: Encode a set of form elements as an array of names and values.
+          title: 将一组表单元素编码为名称和值的数组。
           doc: serializeArray
           src: jQuery.fn.serializeArray
           from: "1.2"
@@ -1576,25 +1576,25 @@ ajax:
       items:
 
         - text: jQuery.ajax()
-          title: Perform an asynchronous HTTP (Ajax) request.
+          title: 执行异步HTTP（Ajax）请求。
           doc: jQuery.ajax
           src: jQuery.ajax
           from: "1.0"
 
         - text: jQuery.prefilter()
-          title: Handle custom Ajax options or modify existing options before each request is sent and before they are processed by $.ajax().
+          title: 在发送每个请求之前处理$ .ajax（）之前处理自定义Ajax选项或修改现有选项。
           doc: jQuery.ajaxPrefilter
           src: jQuery.ajaxPrefilter
           from: "1.5"
 
         - text: jQuery.ajaxSetup()
-          title: Set default values for future Ajax requests.
+          title: 设置未来Ajax请求的默认值。
           doc: jQuery.ajaxSetup
           src: jQuery.ajaxSetup
           from: "1.1"
 
         - text: jQuery.ajaxTransport()
-          title: Creates an object that handles the actual transmission of Ajax data.
+          title: 创建一个处理Ajax数据实际传输的对象。
           doc: jQuery.ajaxTransport
           src: jQuery.ajaxTransport
           from: "1.5"
@@ -1604,31 +1604,31 @@ ajax:
       items:
 
         - text: jQuery.get()
-          title: Load data from the server using a HTTP GET request.
+          title: 使用HTTP GET请求从服务器加载数据。
           doc: jQuery.get
           src: jQuery.get
           from: "1.0"
 
         - text: jQuery.getJSON()
-          title: Load JSON-encoded data from the server using a GET HTTP request.
+          title: 使用GET HTTP请求从服务器加载JSON编码的数据。
           doc: jQuery.getJSON
           src: jQuery.getJSON
           from: "1.0"
 
         - text: jQuery.getScript()
-          title: "Load a JavaScript file from the server using a GET HTTP request, then execute it."
+          title: “使用GET HTTP请求从服务器加载JavaScript文件，然后执行它。”
           doc: jQuery.getScript
           src: jQuery.getScript
           from: "1.0"
 
         - text: jQuery.post()
-          title: Load data from the server using a HTTP POST request.
+          title: 使用HTTP POST请求从服务器加载数据。
           doc: jQuery.post
           src: jQuery.post
           from: "1.0"
 
         - text: .load()
-          title: Load data from the server and place the returned HTML into the matched element.
+          title: 从服务器加载数据并将返回的HTML放入匹配的元素。
           doc: load
           src: jQuery.fn.load
           from: "1.0"
@@ -1643,19 +1643,19 @@ core:
       items:
 
         - text: jQuery()
-          title: Return a collection of matched elements either found in the DOM based on passed argument(s) or created by passing an HTML string.
+          title: 返回基于传递参数或通过传递HTML字符串创建的DOM中找到的匹配元素的集合。
           doc: jQuery
           src: jQuery
           from: "1.0"
 
         - text: jQuery.noConflict()
-          title: "Relinquish jQuery's control of the $ variable."
+          title: “放弃jQuery控制$变量”。
           doc: jQuery.noConflict
           src: jQuery.noConflict
           from: "1.0"
 
         - text: jQuery.sub()
-          title: Creates a new copy of jQuery whose properties and methods can be modified without affecting the original jQuery object.
+          title: 创建一个新的jQuery副本，其属性和方法可以修改而不影响原始的jQuery对象。
           doc: jQuery.sub
           src: jQuery.sub
           from: "1.5"
@@ -1663,13 +1663,13 @@ core:
           removed: "1.9"
 
         - text: jQuery.holdReady()
-          title: Holds or releases the execution of jQuery's ready event.
+          title: 保存或释放执行jQuery的ready事件。
           doc: jQuery.holdReady
           src: jQuery.holdReady
           from: "1.6"
 
         - text: jQuery.when()
-          title: "Provides a way to execute callback functions based on one or more objects, usually Deferred objects that represent asynchronous events."
+          title: “提供一种基于一个或多个对象执行回调函数的方法，通常是表示异步事件的Deferred对象。
           doc: jQuery.when
           src: jQuery.when
           from: "1.5"
@@ -1679,97 +1679,97 @@ core:
       items:
 
         - text: jQuery.Deferred()
-          title: A factory function that returns a chainable utility object with methods to register multiple callbacks into callback queues, invoke callback queues, and relay the success or failure state of any synchronous or asynchronous function.
+          title: 一个工厂函数，返回一个可链接的实用程序对象，该对象具有将多个回调注册到回调队列中的方法，调用回调队列，并中继任何同步或异步函数的成功或失败状态。
           doc: jQuery.Deferred
           from: "1.5"
 
         - text: deferred.always()
-          title: Add handlers to be called when the Deferred object is either resolved or rejected.
+          title: 当Deferred对象被解析或拒绝时添加要调用的处理程序。
           doc: deferred.always
           from: "1.6"
 
         - text: deferred.done()
-          title: Add handlers to be called when the Deferred object is resolved.
+          title: 当Deferred对象被解析时添加要调用的处理程序。
           doc: deferred.done
           from: "1.5"
 
         - text: deferred.fail()
-          title: Add handlers to be called when the Deferred object is rejected.
+          title: 当Deferred对象被拒绝时添加要调用的处理程序。
           doc: deferred.fail
           from: "1.5"
 
         - text: deferred.isRejected()
-          title: Determine whether a Deferred object has been rejected.
+          title: 确定Deferred对象是否被拒绝。
           doc: deferred.isRejected
           from: "1.5"
           deprecated: "1.7"
           removed: "1.8"
 
         - text: deferred.isResolved()
-          title: Determine whether a Deferred object has been resolved.
+          title: 确定Deferred对象是否已解决。
           doc: deferred.isResolved
           from: "1.5"
           deprecated: "1.7"
           removed: "1.8"
 
         - text: deferred.notify()
-          title: Call the progressCallbacks on a Deferred object with the given args.
+          title: 使用给定的参数调用Deferred对象的progressCallbacks。
           doc: deferred.notify
           from: "1.7"
 
         - text: deferred.notifyWith()
-          title: Call the progressCallbacks on a Deferred object with the given context and args.
+          title: 使用给定的上下文和参数调用Deferred对象的progressCallbacks。
           doc: deferred.notifyWith
           from: "1.7"
 
         - text: deferred.pipe()
-          title: Utility method to filter and/or chain Deferreds.
+          title: 过滤和/或链延迟的实用方法。
           doc: deferred.pipe
           from: "1.6"
           deprecated: "1.8"
 
         - text: deferred.progress()
-          title: Add handlers to be called when the Deferred object generates progress notifications.
+          title: 当Deferred对象生成进度通知时，添加要调用的处理程序。
           doc: deferred.progress
           from: "1.7"
 
         - text: deferred.promise()
-          title: "Return a Deferred's Promise object."
+          title: “返回延期的承诺对象”。
           doc: deferred.promise
           from: "1.5"
 
         - text: deferred.reject()
-          title: Reject a Deferred object and call any failCallbacks with the given args.
+          title: 拒绝延迟对象并使用给定的参数调用任何failCallbacks。
           doc: deferred.reject
           from: "1.5"
 
         - text: deferred.rejectWith()
-          title: Reject a Deferred object and call any failCallbacks with the given context and args.
+          title: 拒绝延迟对象，并使用给定的上下文和参数调用任何failCallbacks。
           doc: deferred.rejectWith
           from: "1.5"
 
         - text: deferred.resolve()
-          title: Resolve a Deferred object and call any doneCallbacks with the given args.
+          title: 解析一个Deferred对象，并使用给定的args调用任何doneCallbacks。
           doc: deferred.resolve
           from: "1.5"
 
         - text: deferred.resolveWith()
-          title: Resolve a Deferred object and call any doneCallbacks with the given context and args.
+          title: 解析一个Deferred对象，并使用给定的上下文和args调用任何doneCallbacks。
           doc: deferred.resolveWith
           from: "1.5"
 
         - text: deferred.state()
-          title: Determine the current state of a Deferred object.
+          title: 确定Deferred对象的当前状态。
           doc: deferred.state
           from: "1.7"
 
         - text: deferred.then()
-          title: Add handlers to be called when the Deferred object is resolved or rejected.
+          title: 当Deferred对象被解析或拒绝时添加要调用的处理程序。
           doc: deferred.then
           from: "1.5"
 
         - text: .promise()
-          title: "Return a Promise object to observe when all actions of a certain type bound to the collection, queued or not, have finished."
+          title: “返回承诺对象，观察当绑定到集合的某一类型的所有操作是否已排队等待完成。
           doc: promise
           from: "1.6"
 
@@ -1779,7 +1779,7 @@ core:
       items:
 
         - text: jQuery.boxModel
-          title: "States if the current page, in the user's browser, is being rendered using the W3C CSS Box Model."
+          title: “如果用户浏览器中的当前页面正在使用W3C CSS Box模型呈现，则表示”
           doc: jQuery.boxModel
           src: jQuery.boxModel
           from: "1.0"
@@ -1787,7 +1787,7 @@ core:
           removed: "1.8"
 
         - text: jQuery.browser
-          title: "Contains flags for the useragent, read from navigator.userAgent. We recommend against using this property; please try to use feature detection instead (see jQuery.support). jQuery.browser may be moved to a plugin in a future release of jQuery."
+          title: “包含用户标记，从navigator.userAgent读取，我们建议不要使用此属性;请尝试使用功能检测（参见jQuery.support）。jQuery.browser可能会在将来的版本中移动到插件jQuery的“。
           doc: jQuery.browser
           src: jQuery.browser
           from: "1.0"
@@ -1795,166 +1795,166 @@ core:
           removed: "1.9"
 
         - text: jQuery.contains()
-          title: Check to see if a DOM node is within another DOM node.
+          title: 检查DOM节点是否在另一个DOM节点内。
           doc: jQuery.contains
           src: jQuery.contains
           from: "1.4"
 
         - text: jQuery.each()
-          title: "A generic iterator function, which can be used to seamlessly iterate over both objects and arrays. Arrays and array-like objects with a length property (such as a function's arguments object) are iterated by numeric index, from 0 to length-1. Other objects are iterated via their named properties."
+          title: “一个通用的迭代器函数，可以用于无缝地迭代对象和数组。具有length属性（如函数的参数对象）的数组和数组类对象由数字索引迭代，从0到长度 - 其他对象通过其命名的属性进行迭代。“
           doc: jQuery.each
           src: jQuery.each
           from: "1.0"
 
         - text: jQuery.extend()
-          title: Merge the contents of two or more objects together into the first object.
+          title: 将两个或多个对象的内容合并到第一个对象中。
           doc: jQuery.extend
           src: jQuery.extend
           from: "1.0"
 
         - text: jQuery.globalEval()
-          title: Execute some JavaScript code globally.
+          title: 全局执行一些JavaScript代码。
           doc: jQuery.globalEval
           src: jQuery.globalEval
           from: "1.0.4"
 
         - text: jQuery.grep()
-          title: Finds the elements of an array which satisfy a filter function. The original array is not affected.
+          title: 查找满足过滤功能的数组元素。原始数组不受影响。
           doc: jQuery.grep
           src: jQuery.grep
           from: "1.0"
 
         - text: jQuery.inArray()
-          title: Search for a specified value within an array and return its index (or -1 if not found).
+          title: 搜索数组中的指定值并返回其索引（如果未找到则返回-1）。
           doc: jQuery.inArray
           src: jQuery.inArray
           from: "1.2"
 
         - text: jQuery.isArray()
-          title: Determine whether the argument is an array.
+          title: 确定参数是否是一个数组。
           doc: jQuery.isArray
           src: jQuery.isArray
           from: "1.3"
 
         - text: jQuery.isEmptyObject()
-          title: Check to see if an object is empty (contains no properties).
+          title: 检查对象是否为空（不包含属性）。
           doc: jQuery.isEmptyObject
           src: jQuery.isEmptyObject
           from: "1.4"
 
         - text: jQuery.isFunction()
-          title: Determine if the argument passed is a Javascript function object.
+          title: 确定传递的参数是否是JavaScript函数对象。
           doc: jQuery.isFunction
           src: jQuery.isFunction
           from: "1.2"
 
         - text: jQuery.isNumeric()
-          title: Determines whether its argument is a number.
+          title: 确定其参数是否为数字。
           doc: jQuery.isNumeric
           src: jQuery.isNumeric
           from: "1.7"
 
         - text: jQuery.isPlainObject()
-          title: "Check to see if an object is a plain object (created using '{}' or 'new Object')."
+          title: “检查对象是否是一个普通对象（使用”{}“或”新对象“创建）。”
           doc: jQuery.isPlainObject
           src: jQuery.isPlainObject
           from: "1.4"
 
         - text: jQuery.isWindow()
-          title: Determine whether the argument is a window.
+          title: 确定参数是否为窗口。
           doc: jQuery.isWindow
           src: jQuery.isWindow
           from: "1.4.3"
 
         - text: jQuery.isXMLDoc()
-          title: Check to see if a DOM node is within an XML document (or is an XML document).
+          title: 检查DOM节点是否在XML文档内（或是XML文档）。
           doc: jQuery.isXMLDoc
           src: jQuery.isXMLDoc
           from: "1.1.4"
 
         - text: jQuery.makeArray()
-          title: Convert an array-like object into a true JavaScript array.
+          title: 将类数组的对象转换为真正的JavaScript数组。
           doc: jQuery.makeArray
           src: jQuery.makeArray
           from: "1.2"
 
         - text: jQuery.map()
-          title: Translate all items in an array or array-like object to another array of items.
+          title: 将数组或数组类对象中的所有项目转换为另一个项目数组。
           doc: jQuery.map
           src: jQuery.map
           from: "1.0"
 
         - text: jQuery.merge()
-          title: Merge the contents of two arrays together into the first array.
+          title: 将两个数组的内容合并到第一个数组中。
           doc: jQuery.merge
           src: jQuery.merge
           from: "1.0"
 
         - text: jQuery.noop()
-          title: An empty function.
+          title: 一个空的功能。
           doc: jQuery.noop
           src: jQuery.noop
           from: "1.4"
 
         - text: jQuery.now()
-          title: Return a number representing the current time.
+          title: 返回一个代表当前时间的数字。
           doc: jQuery.now
           src: jQuery.now
           from: "1.4.3"
 
         - text: jQuery.parseHTML()
-          title: Parses a string into an array of DOM nodes.
+          title: 将一个字符串解析成一个DOM节点数组。
           doc: jQuery.parseHTML
           src: jQuery.parseHTML
           from: "1.8"
 
         - text: jQuery.parseJSON()
-          title: Takes a well-formed JSON string and returns the resulting JavaScript object.
+          title: 使用格式良好的JSON字符串，并返回生成的JavaScript对象。
           doc: jQuery.parseJSON
           src: jQuery.parseJSON
           from: "1.4.1"
           deprecated: "3.0"
 
         - text: jQuery.parseXML()
-          title: Parses a string into an XML document.
+          title: 将字符串解析为XML文档。
           doc: jQuery.parseXML
           src: jQuery.parseXML
           from: "1.5"
 
         - text: jQuery.proxy()
-          title: Takes a function and returns a new one that will always have a particular context.
+          title: 获取一个函数并返回一个总是具有特定上下文的新函数。
           doc: jQuery.proxy
           src: jQuery.proxy
           from: "1.4"
 
         - text: jQuery.support
-          title: A collection of properties that represent the presence of different browser features or bugs.
+          title: 表示存在不同浏览器功能或错误的属性集合。
           doc: jQuery.support
           src: jQuery.support
           from: "1.3"
           deprecated: "1.9"
 
         - text: jQuery.trim()
-          title: Remove the whitespace from the beginning and end of a string.
+          title: 从字符串的开始和结尾移除空格。
           doc: jQuery.trim
           src: jQuery.trim
           from: "1.0"
 
         - text: jQuery.type()
-          title: "Determine the internal JavaScript [[Class]] of an object."
+          title: “确定对象的内部JavaScript [[Class]]”。
           doc: jQuery.type
           src: jQuery.type
           from: "1.4.3"
 
         - text: jQuery.unique()
-          title: "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers."
+          title: “排序一个DOM元素数组，删除重复的元素。请注意，这仅适用于DOM元素的数组，而不是字符串或数字。”
           doc: jQuery.unique
           src: jQuery.unique
           from: "1.1.3"
           deprecated: "3.0"
 
         - text: jQuery.uniqueSort()
-          title: "Sorts an array of DOM elements, in place, with the duplicates removed. Note that this only works on arrays of DOM elements, not strings or numbers."
+          title: “排序一个DOM元素数组，删除重复的元素。请注意，这仅适用于DOM元素的数组，而不是字符串或数字。”
           doc: jQuery.uniqueSort
           src: jQuery.uniqueSort
           from: "3.0"
@@ -1965,26 +1965,26 @@ core:
       items:
 
         - text: .get()
-          title: Retrieve the DOM elements matched by the jQuery object.
+          title: 检索由jQuery对象匹配的DOM元素。
           doc: get
           src: jQuery.fn.get
           from: "1.0"
 
         - text: .index()
-          title: Search for a given element from among the matched elements.
+          title: 从匹配的元素中搜索给定的元素。
           doc: index
           src: jQuery.fn.index
           from: "1.0"
 
         - text: .size()
-          title: Return the number of elements in the jQuery object.
+          title: 返回jQuery对象中的元素数。
           doc: size
           src: jQuery.fn.size
           from: "1.0"
           deprecated: "1.8"
 
         - text: .toArray()
-          title: "Retrieve all the DOM elements contained in the jQuery set, as an array."
+          title: “检索包含在jQuery集合中的所有DOM元素，作为数组。
           doc: toArray
           src: jQuery.fn.toArray
           from: "1.4"
@@ -1994,13 +1994,13 @@ core:
       items:
 
         - text: .jquery
-          title: A string containing the jQuery version number.
+          title: 包含jQuery版本号的字符串。
           doc: jquery-2
           src: jQuery.fn.jquery
           from: "1.0"
 
         - text: .context
-          title: The DOM node context originally passed to jQuery(); if none was passed then context will likely be the document.
+          title: DOM节点上下文最初传递给jQuery（）; 如果没有一个通过，那么上下文可能是文档。
           doc: context
           src: jQuery.fn.context
           from: "1.3"
@@ -2008,25 +2008,25 @@ core:
           removed: "3.0"
 
         - text: jQuery.error()
-          title: Takes a string and throws an exception containing it.
+          title: 取一个字符串并抛出一个包含它的异常。
           doc: jQuery.error
           src: jQuery.error
           from: "1.4.1"
 
         - text: .length
-          title: The number of elements in the jQuery object.
+          title: jQuery对象中的元素数。
           doc: length
           src: jQuery.fn.length
           from: "1.0"
 
         - text: .pushStack()
-          title: Add a collection of DOM elements onto the jQuery stack.
+          title: 将一组DOM元素添加到jQuery堆栈上。
           doc: pushStack
           src: jQuery.fn.pushStack
           from: "1.0"
 
         - text: .selector
-          title: A selector representing selector originally passed to jQuery().
+          title: 表示最初传递给jQuery（）的选择器的选择器。
           doc: selector
           src: jQuery.fn.selector
           from: "1.3"
@@ -2038,63 +2038,63 @@ core:
       items:
 
         - text: jQuery.Callbacks()
-          title: A multi-purpose callbacks list object that provides a powerful way to manage callback lists.
+          title: 一个多用途回调列表对象，提供了一种强大的方法来管理回调列表。
           doc: jQuery.Callbacks
           src: jQuery.Callbacks
           from: "1.7"
 
         - text: callbacks.add()
-          title: Add a callback or a collection of callbacks to a callback list.
+          title: 将回调或回调的集合添加到回调列表。
           doc: callbacks.add
           from: "1.7"
 
         - text: callbacks.disable()
-          title: Disable a callback list from doing anything more.
+          title: 禁用一个回调列表做任何事情。
           doc: callbacks.disable
           from: "1.7"
 
         - text: callbacks.disabled()
-          title: Determine if the callbacks list has been disabled.
+          title: 确定回调列表是否被禁用。
           doc: callbacks.disabled
           from: "1.7"
 
         - text: callbacks.empty()
-          title: Remove all of the callbacks from a list.
+          title: 从列表中删除所有回调。
           doc: callbacks.empty
           from: "1.7"
 
         - text: callbacks.fire()
-          title: Call all of the callbacks with the given arguments.
+          title: 使用给定的参数调用所有的回调函数。
           doc: callbacks.fire
           from: "1.7"
 
         - text: callbacks.fired()
-          title: Determine if the callbacks have already been called at least once.
+          title: 确定回调是否已经被调用至少一次。
           doc: callbacks.fired
           from: "1.7"
 
         - text: callbacks.fireWith()
-          title: Call all callbacks in a list with the given context and arguments.
+          title: 使用给定的上下文和参数调用列表中的所有回调。
           doc: callbacks.fireWith
           from: "1.7"
 
         - text: callbacks.has()
-          title: Determine whether a supplied callback is in a list.
+          title: 确定提供的回调是否在列表中。
           doc: callbacks.has
           from: "1.7"
 
         - text: callbacks.lock()
-          title: Lock a callback list in its current state.
+          title: 将回调列表锁定在当前状态。
           doc: callbacks.lock
           from: "1.7"
 
         - text: callbacks.locked()
-          title: Determine if the callbacks list has been locked.
+          title: 确定回调列表是否已被锁定。
           doc: callbacks.locked
           from: "1.7"
 
         - text: callbacks.remove()
-          title: Remove a callback or a collection of callbacks from a callback list.
+          title: 从回调列表中删除回调或回调的集合。
           doc: callbacks.remove
           from: "1.7"
 ---

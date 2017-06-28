@@ -34,6 +34,7 @@ https://oscarotero.com
 
         <link rel="stylesheet" href="{{css 'styles.css'}}" type="text/css" media="screen">
         <link rel="stylesheet" href="{{css 'styles-print.css'}}" type="text/css" media="print">
+        <link rel="stylesheet" href="{{css 'hint.min.css'}}" type="text/css" media="screen">
         <script type="text/javascript" src="{{js 'main.js'}}"></script>
         <script>
           if (document.childNodes[1].nodeType === 8) {
@@ -98,7 +99,7 @@ https://oscarotero.com
                     <ul>
                         {{#each this.items}}
                         <li>
-                            <a class="{{itemClass}}" title="{{this.title}}" href="http://www.jquery123.com/{{this.doc}}/" data-src="{{this.src}}">
+                            <a class="{{itemClass}} hint--bottom-right hint--medium hint--rounded" aria-label="{{this.title}}" href="http://www.jquery123.com/{{this.doc}}/" data-src="{{this.src}}">
                                 {{this.text}}
                             </a>
                         </li>
